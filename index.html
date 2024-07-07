@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAwwA7 Travel Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b54caf8004.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Sa<span id="ww">ww</span>a7</h1>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <ul class="menu links-container">
+                <li class="link-item"><a href="#home">Home</a></li>
+                <li class="link-item"><a href="#about-us">About Us</a></li>
+                <li class="link-item"><a href="#tours">Tours</a></li>
+                <li class="link-item"><a href="#gallery">Gallery</a></li>
+                <li class="link-item">
+                    <a href="#cart">
+                        <img src="img/cart-logo.jpeg" class="cart-logo" alt="Cart Logo">
+                        <span class="cart-count">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <br><br>
+            <h1 class="headers">Popular Tours</h1>
+            <div class="destinations-container">
+                <div class="destination-card">
+                    <img id="d-pic" src="img/japan.jpeg" alt="Japan">
+                    <h2>Japan</h2>
+                    <p>Information about Japan</p>
+                    <p>Price: $250</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="destination-card">
+                    <img id="d-pic"  src="img/uk.jpeg" alt="UK">
+                    <h2>UK</h2>
+                    <p>Information about UK</p>
+                    <p>Price: $250</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="destination-card">
+                    <img id="d-pic" src="img/egypt.jpeg" alt="Egypt">
+                    <h2>Egypt</h2>
+                    <p>Information about Egypt</p>
+                    <p>Price: $250</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="destination-card">
+                    <img id="d-pic" src="img/dubai.jpeg" alt="Dubai">
+                    <h2>Dubai</h2>
+                    <p>Information about Dubai</p>
+                    <p>Price: $250</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+            </div>
+            <br><br><br><br><br>
+            <button class="more-tours">More Tours</button>
+        </section>
+        <br><br><br><br><br><br><br><br><br><br>
+        <section id="gallery">
+         <div class="tr-pic">
+            <h1 class="headers">Photos from Travellers</h1>
+            <p class="gallery-text">Explore the world through our travellers' eyes</p>
+         </div>
+            <div class="gallery-container">
+                <img src="img/gallery1.jpeg" alt="Gallery 1">
+                <img src="img/gallery2.jpeg" alt="Gallery 2">
+                <img src="img/gallery3.jpeg" alt="Gallery 3">
+                <img src="img/gallery4.jpeg" alt="Gallery 4">
+                <img src="img/gallery5.jpeg" alt="Gallery 5">
+            </div>
+            <br><br><br><br><br>
+            <button class="view-all-photos">View All Photos</button>
+        </section>
+         <br><br><br><br><br><br><br><br><br><br>
+        <section id="about-us">
+            <h1 class="headers">About Us</h1>
+            <p>Sa<span id="ww">ww</span>a7 is a travel agency that will help you travel anywhere around the world with best servirces and prices </p>
+          <p>Our mission is to provide the best travel services to our customers and to make their Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque
+            laudantium. Sit ornare
+            mollitia tenetur, aptent.
+        </section>
+        <section class="cta" id="contact">
+            <div class="container">
+    
+              <div class="cta-content">
+                <p class="headers2">Call To Action !</p>
+    
+                <h2 class="h2 section-title">Ready For Unforgatable Travel. Remember Us!</h2>
+    
+                <p class="section-text">
+                  Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque
+                  laudantium. Sit ornare
+                  mollitia tenetur, aptent.
+                </p>
+              </div>
+    
+              <button class="btn btn-secondary">Contact Us !</button>
+    
+            </div>
+        </section>
+
+        <aside id="cart-sidebar">
+            <button class="close-cart">x</button>
+            <h1>Cart</h1>
+            <ul class="cart-items">
+                <!-- cart items will be displayed here -->
+            </ul>
+            <button class="checkout">Checkout</button>
+        </aside>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/abdulrahman.mohammed.75436/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://x.com/3bdalR7manM7md1"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/0ii_am/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/abdalrhman-mohammed-697146211/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Our Team</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>Sa<span id="ww">ww</span>a7 Copyright &copy;2024 Designed by <span class="medo">TEAM 1</span></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
